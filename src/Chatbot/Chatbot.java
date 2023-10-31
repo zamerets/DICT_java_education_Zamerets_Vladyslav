@@ -15,5 +15,12 @@ public class Chatbot{
         int remainder7 = scan.nextInt();
         int age =  (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105;
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
+        System.out.println("Now I will prove to you that I can count to any number you want");
+        int userNumber = scan.nextInt();
+        int counter =  0;
+        while(counter <= userNumber) {
+            System.out.println(counter + " !");
+            counter += 1;
+        }
     }
 }
