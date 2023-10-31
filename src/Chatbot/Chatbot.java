@@ -22,5 +22,19 @@ public class Chatbot{
             System.out.println(counter + " !");
             counter += 1;
         }
+        System.out.println("Let's test your programming knowledge");
+        System.out.println("Witch number do we get, if we divide 10/5");
+        System.out.println("1. '1' \n2. '2' \n3. '3' \n4. '4'");
+        int check = 0;
+        while(check == 0) {
+            int userChoice = scan.nextInt();
+            if (userChoice == 2){
+                check = 2;
+                System.out.println("Completed, have a nice day!");
+            }
+            else {
+                System.out.println("Please, try  again");
+            }
     }
+}
 }
